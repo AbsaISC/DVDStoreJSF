@@ -79,6 +79,7 @@ public class Film  implements java.io.Serializable {
     public void setLanguageByOriginalLanguageId(Language languageByOriginalLanguageId) {
         this.languageByOriginalLanguageId = languageByOriginalLanguageId;
     }
+    
     public String getTitle() {
         return this.title;
     }
